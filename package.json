@@ -1,0 +1,20 @@
+{
+  "name": "projects-feedback-api",
+  "version": "1.0.0",
+  "description": "API Node/Express para feedbacks, upvotes e listagem de projetos, com Swagger/OpenAPI.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["express", "api", "swagger", "nodejs"],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
