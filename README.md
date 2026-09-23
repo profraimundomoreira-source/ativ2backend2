@@ -111,9 +111,9 @@ os arquivos passaram por `node --check`), mas não pôde ser executado com
 aqui. Rode `npm install && npm start` no seu ambiente para validar a
 execução completa; o código segue os padrões usuais do Express 4 e das
 libs `swagger-jsdoc`/`swagger-ui-express`, então deve funcionar diretamente.
+_________________________________________________________________________
+## usar esse comando no Postman
 
-usar esse comando no Postman
-____________________________________
 ## Serve para listar os projetos cadastrados no sistema
 GET http://localhost:3000/api/projects
 _________________________________________________
